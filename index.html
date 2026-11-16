@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <title>Elika Portfolio | IT Graduate</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+   <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+                <span>Elika Dwi Utami</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"><a href="#home">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><a href="#about">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250"><a href="#experience">Experience</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><a href="#skills">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"><a href="#projects">Projects</a></div>
+                <div class="link contact-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><a href="#contact">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+
+        <div class="dropdown">
+            <div class="links">
+                <a href="#home" onclick="cancel()">Home</a>
+                <a href="#about" onclick="cancel()">About</a>
+                <a href="#experience" onclick="cancel()">Experience</a>
+                <a href="#skills" onclick="cancel()">Skills</a>
+                <a href="#projects" onclick="cancel()">Projects</a>
+                <a href="#contact" onclick="cancel()">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home">
+        <div class="main-container">
+            <div class="image" data-aos="zoom-in-right" data-aos-duration="2500">
+                <img src="main.jpg" alt="Profile">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">Hey I'm <span>Elika</span></h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">I'm a <span class="typewriter-text"></span></div>
+                <p data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000" style="text-align: justify;">
+                Lulusan IT yang berdedikasi dalam mengelola solusi teknologi dan efisiensi sistem digital. 
+                Memiliki kemampuan analisis yang kuat, adaptif terhadap teknologi baru, serta didukung dengan 
+                kemampuan kerjasama tim yang baik untuk mencapai target operasional 
+                dan solusi teknologi yang solutif bagi perusahaan.
+                </p>
+                <div class="social-links" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1200">
+                   <a href="https://instagram.com/elika_tami" target="_blank" title="Instagram">
+                         <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    
+                    <a href="https://linkedin.com/in/elikadwiutami" target="_blank" title="LinkedIn">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    
+                    <a href="mailto:elikatami123@gmail.com" title="Email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </div>
+               <div class="btn" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="1300">
+                    <a href="CV_Elika Dwi Utami.pdf" download="CV_Elika_IT_Graduate.pdf">
+                        <button>Download CV</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-container" data-aos="fade-up">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <i class="fa-solid fa-user-graduate"></i>
+                    <h3>Who am I?</h3>
+                    <p>Lulusan Teknik Informatika yang berfokus pada efisiensi sistem dan manajemen data. Saya menjembatani kebutuhan bisnis dengan solusi teknologi yang tepat guna.</p>
+                </div>
+                <div class="about-card">
+                    <i class="fa-solid fa-university"></i>
+                    <h3>Education</h3>
+                    <p>S1 Teknik Informatika (2021-2025) - Universitas Lampung - <br>
+                    Fokus pada Desain, Manajemen Database & Pengembangan Web serta Analisis Data.</p>
+                </div>
+                <div class="about-card">
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <h3>Goal</h3>
+                    <p>Bertekad untuk memberikan kontribusi nyata dalam transformasi digital perusahaan melalui pemeliharaan sistem yang stabil dan kolaborasi tim yang solid.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="experience-container" data-aos="fade-up">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+
+    <div class="timeline-item" data-aos="fade-left">
+                <div class="timeline-date">Juli 2026 - Sekarang</div>
+                <div class="timeline-content">
+                    <h3>Management Trainee - System Engineer</h3>
+                    <p class="company">PT Alwindo Prima Solusi</p>
+                    <p>Mendalami operasional Data Center, administrasi server, serta fokus pada layanan keamanan jaringan. Berkontribusi dalam konfigurasi sistem, analisis insiden, dan penyusunan dokumentasi teknis instalasi.</p>
+                </div>
+            </div>
+
+    <div class="timeline-item" data-aos="fade-right">
+        <div class="timeline-date">November 2025 - Mei 2026</div>
+        <div class="timeline-content">
+            <h3>Maganghub Kemnaker - Coding Teacher </h3>
+            <p class="company">Timedoor Academy</p>
+            <p>Instruktur pemrograman bagi siswa tingkat TK hingga SMA. Berpengalaman dalam menyusun materi edukatif dan mempresentasikan konsep teknologi rumit dengan bahasa yang sederhana dan komunikatif.</p>
+        </div>
+    </div>
+
+    <div class="timeline-item" data-aos="fade-left">
+        <div class="timeline-date">Mei 2024 - September 2025</div>
+        <div class="timeline-content">
+            <h3>Website Sistem Informasi Monitoring Pembesaran Kambing (SIMBEK) </h3>
+            <p class="company">TIM dalam Pengabdian Kepada Masyarakat (PKM) </p>
+            <p>Pengembang Frontend untuk platform monitoring ternak berbasis Laravel. Mengedukasi dan melatih warga lokal dalam pemanfaatan teknologi digital guna meningkatkan produktivitas sektor agrikultur di Lampung Tengah.</p>
+        </div>
+    </div>
+
+    <div class="timeline-item" data-aos="fade-right">
+        <div class="timeline-date">Juni 2024 - Agustus 2024</div>
+        <div class="timeline-content">
+            <h3>Business Service</h3>
+            <p class="company">PT. Telkom Witel Lampung</p>
+            <p>Pengembang Website Inventaris berbasis Laravel pada unit Business Service. Meningkatkan efisiensi sistem pelacakan data dan mendapatkan pengalaman profesional dalam tata kelola lingkungan kerja BUMN.</p>
+        </div>
+    </div>
+
+    <div class="timeline-item" data-aos="fade-left">
+    <div class="timeline-date"> Agustus - Desember 2023</div>
+    <div class="timeline-content">
+        <h3>Capstone Project - MSIB Kampus Merdeka</h3>
+        <p class="company">PT Revolusi Cita Edukasi (RevoU)</p>
+        <p>Berhasil menyelesaikan dua proyek utama: Mengembangkan website <strong>FastLogistic</strong> (Software Engineering) serta menganalisis dan memvisualisasikan data <strong>NYC Property Sales</strong> menggunakan Looker Studio (Data Analytics).</p>
+    </div>
+</div>
+
+    <div class="timeline-item" data-aos="fade-right">
+    <div class="timeline-date"> 2021 - 2025 </div>
+    <div class="timeline-content">
+        <h3>Academic & Organization Leadership</h3>
+        <p class="company">Universitas Lampung (UNILA)</p>
+        <p style="text-align: justify;">
+            Aktif berkontribusi dalam berbagai peran strategis di lingkungan kampus:
+        </p>
+        <ul style="font-size: 0.85rem; padding-left: 15px; margin-top: 10px; text-align: left;">
+            <li><strong>Asisten Laboratorium:</strong> Membimbing praktikum dan operasional di Laboratorium Teknik Komputer (2024-2025).</li>
+            <li><strong>HIMATRO:</strong> Staff BangTek (2021-2023) dan Koordinator Sekretariat EEA (2023).</li>
+            <li><strong>UKM Kopma:</strong> Koordinator Sekretariat JAMKOPNAS dan Staff Bidang Keanggotaan (2022-2023).</li>
+        </ul>
+    </div>
+</div>
+
+</div>
+   <section id="skills">
+    <div class="skills-content" data-aos="fade-up">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill">
+                <i class="fa-brands fa-html5"></i>
+                <span>Web Development</span>
+                <p>HTML, CSS, & Responsive Design</p>
+            </div>
+            <div class="skill">
+                <i class="fa-solid fa-tools"></i>
+                <span>IT Operations</span>
+                <p>Troubleshooting & System Admin</p>
+            </div>
+            <div class="skill">
+                <i class="fa-solid fa-database"></i>
+                <span>Database</span>
+                <p>MySQL & SQL Server Management</p>
+            </div>
+            <div class="skill">
+                <i class="fa-brands fa-python"></i>
+                <span>Programming</span>
+                <p>Python for Automation & Data</p>
+            </div>
+            <div class="skill">
+                <i class="fa-solid fa-file-excel"></i>
+                <span>Data Analysis</span>
+                <p>Advanced Excel & Reporting</p>
+            </div>
+            <div class="skill">
+                <i class="fa-solid fa-pen-nib"></i>
+                <span>UI/UX Design</span>
+                <p>Figma & Graphic Assets</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="projects">
+    <div class="projects-container" data-aos="fade-up">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="project-grid">
+
+           <div class="project-card" data-aos="zoom-in">
+            <div class="project-img">
+                <img src="simbek.png" alt="SI MBEK Website">
+            </div>
+            <div class="project-info">
+            <h3>SI MBEK Website</h3>
+            <p>Sistem Informasi Monitoring Pembesaran Kambing (SI MBEK) dengan Framework Laravel yang dikembangkan untuk memudahkan pengelolaan hewan ternak kambing.</p>
+            
+            <a href="https://ramanfarm.id" target="_blank" class="btn-live">
+                Live View <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+        </div>
+        </div> 
+
+            <div class="project-card" data-aos="zoom-in" data-aos-delay="200">
+                <div class="project-img">
+                    <img src="telkom.png" alt="Inventory Website">
+                </div>
+                <div class="project-info">
+                    <h3>Telkom Inventory Website</h3>
+                    <p>Platform berbasis web dengan framework laravel yang mengelola dan mendata inventaris kantor dalam bidang Business Service.</p>
+                    <a href="#" target="_blank" class="btn-live">
+                        Live View <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+
+            
+            <div class="project-card" data-aos="zoom-in">
+                <div class="project-img">
+                    <img src="nyc.png" alt="Dashboard NYC Property Sales">
+                </div>
+                <div class="project-info">
+                <h3>NYC Property Analytics</h3>
+                <p>Visualisasi data interaktif menggunakan Looker Studio untuk menganalisis tren penjualan properti di New York City.</p>
+                <a href="https://lookerstudio.google.com/reporting/8c94aa29-4741-43f9-8664-eae532b3f5a2" target="_blank" class="btn-live">
+                    Live View <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+            </div> 
+
+            <div class="project-card" data-aos="zoom-in">
+                <div class="project-img">
+                    <img src="fast.png" alt="Fast Logistic Website">
+                </div>
+                <div class="project-info">
+                <h3>Fast Logistic Website</h3>
+                <p>Platform berbasis web untuk mengelola logistik dan pengiriman barang dengan fitur real-time tracking.</p>
+                <a href="https://kampus-merdeka-software-engineering.github.io/FE-Semarang-23/" target="_blank" class="btn-live">
+                    Live View <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+            </div> 
+    </div> 
+    </div>
+</section>
+
+<section id="contact">
+    <div class="contact-container" data-aos="fade-up">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="contact-desc">Tertarik untuk berkolaborasi? Hubungi saya melalui platform di bawah ini.</p>
+        
+        <div class="social-pills">
+            <a href="mailto:elikatami123@gmail.com" class="pill">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+            
+            <a href="https://linkedin.com/in/elikadwiutami" target="_blank" class="pill">
+                <i class="fa-brands fa-linkedin-in"></i>
+                <span>LinkedIn</span>
+            </a>
+            
+            <a href="https://instagram.com/elika_tami" target="_blank" class="pill">
+                <i class="fa-brands fa-instagram"></i>
+                <span>Instagram</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script>
+        AOS.init({offset:0});
+
+        function hamburg(){
+            document.querySelector(".dropdown").style.transform = "translateY(0px)";
+        }
+        function cancel(){
+            document.querySelector(".dropdown").style.transform = "translateY(-500px)";
+        }
+
+        new Typewriter('.typewriter-text', {
+            strings: ['System Engineer', 'Web Developer', 'IT Trainer', 'Data Analyst', 'UI/UX Designer', 'Tech Enthusiast'],
+            autoStart: true,
+            loop: true,
+        });
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('.link a');
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                if (pageYOffset >= sectionTop - 150) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').includes(current)) {
+                    link.classList.add('active');
+                }
+            });
+            
+            document.querySelector('nav').classList.toggle('scrolled', window.scrollY > 50);
+        });
+    </script>
+</body>
+</html>
